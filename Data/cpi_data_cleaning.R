@@ -48,5 +48,5 @@ urban_df[ , -1] <- apply(urban_df[ , -1], 2, function(x) na.approx(x, na.rm = FA
 rural_df <- rural_df %>% select(-Housing)
 rural_df[ , -1] <- apply(rural_df[ , -1], 2, function(x) na.approx(x, na.rm = FALSE))
 
-save(combined_df, urban_df, rural_df, file = "CPI_data_cleaned.RData")
+save(combined_df, urban_df, rural_df, file = "cpi_data_cleaned.RData")
 
