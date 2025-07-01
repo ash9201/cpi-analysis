@@ -5,7 +5,7 @@ library(ggplot2)
 library(shinythemes)
 
 # Load cleaned CPI data frames
-load("CPI_data_cleaned.RData")
+load("../Data/cpi_data_cleaned.RData")
 
 # Pre-calc choices (all categories except Date)
 cpi_choices <- names(rural_df)[-1]
