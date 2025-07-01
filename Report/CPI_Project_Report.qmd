@@ -24,7 +24,7 @@ library(tibble)
 library(Metrics)
 library(purrr)
 library(prophet)
-load("CPI_data_cleaned.RData")
+load("../Data/cpi_data_cleaned.RData")
 ```
 
 # Introduction
